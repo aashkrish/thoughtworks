@@ -25,7 +25,7 @@ public class Movie {
         for (int i = 0; i < movies.length; i++) {
             if (movies[i].rating.contains("PG")) {
                 System.out.println(movies[i].title);
-                PGMovies[j] = new Movie(movies[i].title,movies[i].studio,movies[i].rating);
+                PGMovies[j] = new Movie(movies[i].title, movies[i].studio, movies[i].rating);
                 j++;
             }
         }
